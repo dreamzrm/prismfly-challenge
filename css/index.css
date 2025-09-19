@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #F3F4EC;
+  --secondary-color: #6C6E71;
+  --forest-green: #292D33;
+  --charcoal: #202020;
+  --sunset: #D4491B;
+  --main-font: "indivisible", sans-serif;
+  --support-font: "turnip", serif;
+}
+
+.carousel {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */
+
