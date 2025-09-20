@@ -18,22 +18,67 @@
     
       flex-direction: column !important;  /* stack image on top, text below */
       text-align: center;
-    }
-  
-    .content-container {
-      padding: 20px;
+      height: 100vh;
+      border-radius: 5px;
+      background-color: #F3F4EC;
+      overflow: hidden;
+      
+
+      .image-container{
+        height: 43%;
+        
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border-radius: 0px;
+          object-fit: cover;
+          margin:0;
+          padding:0px;
+        }
+      }
+      .content-container{
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+        .caption-card {
+          color: #D4491B;
+          margin: 0px;
+          margin-left: 0.625rem;
+          margin-right: 0.625rem;
+          font-size: 1.25rem;
+        }
+        .heading-card {
+          margin-top: 0.5rem;
+        font-size: 2rem;
+        margin-left: 0.625rem;
+          margin-right: 0.625rem;
+      }
+
+      
+      .body-card {
+        margin-top: 0.875rem;
+        margin-left: 0.625rem;
+          margin-right: 0.625rem;
+          font-size: 1.0625 rem;
+      }
+      .button-card{
+        margin-top: 1.875rem;
+        font-size: 1.125rem;
+        margin-bottom: 0px;
     }
   }
+ }  
+}
 
   @media (min-width: 768px)
 {
   .country-block {
     display: flex;
-    align-items: center;
     gap: 0px;
     padding: 0px;
-    width: auto;
-    height: auto;
+    align-items: stretch;   /* make both columns equal height */
+    width: 100%;
+    height: 640px;
   
     .image-container {
       width: 50%;
@@ -67,33 +112,34 @@
     .caption-card {
       color: #D4491B;
       margin-bottom: 0rem;
-      font-size: 20px;
+      font-size: 1.3rem;
     }
     
     .heading-card {
+      margin-top: 0.625rem; 
       margin-bottom: 1.3rem;
-      font-size: 50px;
+      font-size: 3.225em;
     }
     
     .body-card {
       margin-bottom: 2.6rem;
-      font-size: 20px;
+      font-size: 1.3rem;
     }
     
+    
+  }
+}
+
+  .content-container { 
     .button-card{
       padding: 0.71875rem 5.6875rem;
-      font-size: 18px;
+      font-size: 1.125rem;
       background-color: black;
       color: white;
       border-radius: 9999px;
     }
-  }
-
-
-
-  
-  
 }
+
 
 
 
