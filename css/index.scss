@@ -48,6 +48,7 @@
           margin-left: 0.625rem;
           margin-right: 0.625rem;
           font-size: 1.25rem;
+          font-weight: 600;
         }
         .heading-card {
           margin-top: 0.5rem;
@@ -56,6 +57,7 @@
         margin-left: 0.625rem;
           margin-right: 0.625rem;
           color: var(--forest-green);
+          font-weight: 700;
       }
 
       
@@ -66,6 +68,7 @@
           font-size: 1.0625 rem;
           font-family: var(--support-font);
           color: var(--secondary-color);
+          font-weight: 400;
       }
       .button-card{
         margin-top: 1.875rem;
@@ -121,6 +124,7 @@
       margin-bottom: 0rem;
       font-size: 1.3rem;
       font-family: var(--main-font);
+      font-weight: 600;
     }
     
     .heading-card {
@@ -129,6 +133,7 @@
       font-size: 3.225em;
       font-family: var(--main-font);
       color: var(--forest-green);
+      font-weight: 700;
     }
     
     .body-card {
@@ -136,6 +141,7 @@
       font-size: 1.3rem;
       font-family: var(--support-font);
       color: var(--secondary-color);
+      font-weight: 400;
     }
     
     
@@ -150,8 +156,18 @@
       color: var(--primary-color);
       border-radius: 9999px;
       font-family: var(--main-font);
+      font-weight: 600;
     }
 }
 
+
+
+  
+  
+
+
+
+
+  
 
 
