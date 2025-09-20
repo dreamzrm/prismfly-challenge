@@ -20,13 +20,13 @@
       text-align: center;
       height: 100vh;
       border-radius: 5px;
-      background-color: #F3F4EC;
+      background-color: var(--primary-color);
       overflow: hidden;
       
 
       .image-container{
         height: 43%;
-          aspect-ratio: 1/1;
+        aspect-ratio: 1/1;
         
         img {
           display: block;
@@ -42,17 +42,20 @@
         padding-top: 1.875rem;
         padding-bottom: 1.875rem;
         .caption-card {
-          color: #D4491B;
+          color: var(--sunset);
           margin: 0px;
+          font-family: var(--main-font);
           margin-left: 0.625rem;
           margin-right: 0.625rem;
           font-size: 1.25rem;
         }
         .heading-card {
           margin-top: 0.5rem;
+          font-family: var(--main-font);
         font-size: 2rem;
         margin-left: 0.625rem;
           margin-right: 0.625rem;
+          color: var(--forest-green);
       }
 
       
@@ -61,9 +64,12 @@
         margin-left: 0.625rem;
           margin-right: 0.625rem;
           font-size: 1.0625 rem;
+          font-family: var(--support-font);
+          color: var(--secondary-color);
       }
       .button-card{
         margin-top: 1.875rem;
+        font-family: var(--main-font);
         font-size: 1.125rem;
         margin-bottom: 0px;
     }
@@ -108,23 +114,28 @@
     padding-right: 100px;
     padding-top: 105px;
     padding-bottom: 122px;
-    background-color: #F3F4EC;
+    background-color: var(--primary-color);
 
     .caption-card {
-      color: #D4491B;
+      color: var(--sunset);
       margin-bottom: 0rem;
       font-size: 1.3rem;
+      font-family: var(--main-font);
     }
     
     .heading-card {
       margin-top: 0.625rem; 
       margin-bottom: 1.3rem;
       font-size: 3.225em;
+      font-family: var(--main-font);
+      color: var(--forest-green);
     }
     
     .body-card {
       margin-bottom: 2.6rem;
       font-size: 1.3rem;
+      font-family: var(--support-font);
+      color: var(--secondary-color);
     }
     
     
@@ -135,12 +146,12 @@
     .button-card{
       padding: 0.71875rem 5.6875rem;
       font-size: 1.125rem;
-      background-color: black;
-      color: white;
+      background-color: var(--forest-green);
+      color: var(--primary-color);
       border-radius: 9999px;
+      font-family: var(--main-font);
     }
 }
-
 
 
 
