@@ -1,10 +1,11 @@
 function initCarousel() {
-  if ($(window).width() < 768) {
+  if ($(window).width() < 810) {
     if (!$('.country-carousel').hasClass('slick-initialized')) {
       $('.country-carousel').slick({
         dots: true,
         arrows: false,
         infinite: false,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true
@@ -20,3 +21,4 @@ function initCarousel() {
 // run on load + resize
 $(document).ready(initCarousel);
 $(window).on('resize', initCarousel);
+
